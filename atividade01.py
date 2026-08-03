@@ -1,0 +1,17 @@
+Nome_aluno = input("Inform e Nome do aluno ")
+idade_aluno = input("Informe idade do aluno ")
+curso = input("Informe o curso")
+
+nota1 = float(input("Informe nota 01 "))
+nota2 = float(input("Informe nota 02 "))
+nota3 = float(input("Informe nota 03 "))
+
+print("==========Relatorio=============")
+print(f"Nome: {Nome_aluno}")
+print(f"Idade: {idade_aluno}")
+print(f"Curso: {curso}")
+print("--------------------------------")
+print(f"Nota 1: {nota1}")
+print(f"Nota 2: {nota2}")
+print(f"Nota 3: {nota3}")
+print("--------------------------------")
